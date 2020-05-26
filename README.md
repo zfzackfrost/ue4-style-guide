@@ -286,7 +286,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Ambient Occlusion) | T_     | _O         |                                  |
 | Texture (Bump)          | T_         | _B         |                                  |
 | Texture (Emissive)      | T_         | _E         |                                  |
-| Texture (Mask)          | T_         | _K         | Changed from `M` in original style guide. |
+| Texture (Mask)          | T_         | _K         | Suffix changed from original style guide. |
 | Texture (Specular)      | T_         | _S         |                                  |
 | Texture (Metallic)      | T_         | _M         |                                  |
 | Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |

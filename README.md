@@ -1383,7 +1383,7 @@ Every texture has a Texture Group property used for LODing, and this should be s
 Copyright &copy; 2016 Gamemakin LLC &mdash; MIT License
 <br/>
 
-See [LICENSE](/LICENSE)
+See [LICENSE](/LICENSE_ORIG)
 <br/>
 <br/>
 **License for modifications made in this Fork:**

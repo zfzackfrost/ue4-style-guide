@@ -1,4 +1,4 @@
-# [ZGW] UE4 Style Guide()
+# ZGW UE4 Style Guide
 Forked from [`Allar/ue4-style-guide`](https://github.com/Allar/ue4-style-guide)
 
 *A mostly reasonable approach to Unreal Engine 4*
@@ -1388,5 +1388,3 @@ See [LICENSE](/LICENSE)
 ## Amendments
 
 We encourage you to fork this guide and change the rules to fit your team's style guide. Below, you may list some amendments to the style guide. This allows you to periodically update your style guide without having to deal with merge conflicts.
-
-# };

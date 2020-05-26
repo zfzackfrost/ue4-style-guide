@@ -271,30 +271,34 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Subsurface Profile            | SP_        |            |                                  |
 | Physical Materials            | PM_        |            |                                  |
 | Decal                         | M_, MI_    | _Decal     |                                  |
+| Layered Material              | M_         | _Layered   |                                  |
+| Material Layer                | ML_        |            |                                  |
+| Material Layer Instance       | MLI_       |            |                                  |
+| Material Layer Blend          | MLB_       |            |                                  |
 
 <a name="anc-textures"></a>
 <a name="1.2.6"></a>
 ### 1.2.6 Textures ![#](https://img.shields.io/badge/lint-supported-green.svg)
 
-| Asset Type              | Prefix     | Suffix     | Notes                            |
-| ----------------------- | ---------- | ---------- | -------------------------------- |
-| Texture                 | T_         |            |                                  |
-| Texture (Diffuse/Albedo/Base Color)| T_ | _D      |                                  |
-| Texture (Normal)        | T_         | _N         |                                  |
-| Texture (Roughness)     | T_         | _R         |                                  |
-| Texture (Alpha/Opacity) | T_         | _A         |                                  |
-| Texture (Ambient Occlusion) | T_     | _O         |                                  |
-| Texture (Bump/Height)          | T_         | _B         |                                  |
-| Texture (Emissive)      | T_         | _E         |                                  |
-| Texture (Mask)          | T_         | _K         | Suffix changed from original style guide. |
-| Texture (Specular)      | T_         | _S         |                                  |
-| Texture (Metallic)      | T_         | _M         |                                  |
-| Texture (Packed)        | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
-| Texture Cube            | TC_        |            |                                  |
-| Media Texture           | MT_        |            |                                  |
-| Render Target           | RT_        |            |                                  |
-| Cube Render Target      | RTC_       |            |                                  |
-| Texture Light Profile   | TLP        |            |                                  |
+| Asset Type                          | Prefix     | Suffix     | Notes                                                   |
+| ----------------------------------- | ---------- | ---------- | ------------------------------------------------------- |
+| Texture                             | T_         |            |                                                         |
+| Texture (Diffuse/Albedo/Base Color) | T_         | _D         |                                                         |
+| Texture (Normal)                    | T_         | _N         |                                                         |
+| Texture (Roughness)                 | T_         | _R         |                                                         |
+| Texture (Alpha/Opacity)             | T_         | _A         |                                                         |
+| Texture (Ambient Occlusion)         | T_         | _O         |                                                         |
+| Texture (Bump/Height)               | T_         | _H         | Suffix changed from original style guide.               |
+| Texture (Emissive)                  | T_         | _E         |                                                         |
+| Texture (Mask)                      | T_         | _K         | Suffix changed from original style guide.               |
+| Texture (Specular)                  | T_         | _S         |                                                         |
+| Texture (Metallic)                  | T_         | _M         |                                                         |
+| Texture (Packed)                    | T_         | _*         | See notes below about [packing](#anc-textures-packing). |
+| Texture Cube                        | TC_        |            |                                                         |
+| Media Texture                       | MT_        |            |                                                         |
+| Render Target                       | RT_        |            |                                                         |
+| Cube Render Target                  | RTC_       |            |                                                         |
+| Texture Light Profile               | TLP        |            |                                                         |
 
 <a name="anc-textures-packing"></a>
 <a name="1.2.6.1"></a>

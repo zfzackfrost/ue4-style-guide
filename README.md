@@ -363,18 +363,18 @@ Packing 4 channels of data into a texture (RGBA) is not recommended except for a
 <a name="1.2.10"></a>
 ### 1.2.10 Sounds ![#](https://img.shields.io/badge/lint-supported-green.svg)
 
-| Asset Type              | Prefix     | Suffix     | Notes                            |
-| ----------------------- | ---------- | ---------- | -------------------------------- |
-| Dialogue Voice          | DV_        |            |                                  |
-| Dialogue Wave           | DW_        |            |                                  |
-| Media Sound Wave        | MSW_       |            |                                  |
-| Reverb Effect           | Reverb_    |            |                                  |
-| Sound Attenuation       | ATT_       |            |                                  |
-| Sound Class             |            |            | No prefix/suffix. Should be put in a folder called SoundClasses |
-| Sound Concurrency       |            | _SC        | Should be named after a SoundClass |
-| Sound Cue               | A_         | _Cue       |                                  |
-| Sound Mix               | Mix_       |            |                                  |
-| Sound Wave              | A_         |            |                                  |
+|    Asset Type     | Prefix  | Suffix |                              Notes                              |
+| ----------------- | ------- | ------ | --------------------------------------------------------------- |
+| Dialogue Voice    | DV_     |        |                                                                 |
+| Dialogue Wave     | DW_     |        |                                                                 |
+| Media Sound Wave  | MSW_    |        |                                                                 |
+| Reverb Effect     | Reverb_ |        |                                                                 |
+| Sound Attenuation | ATT_    |        |                                                                 |
+| Sound Class       |         |        | No prefix/suffix. Should be put in a folder called SoundClasses |
+| Sound Concurrency |         | _SC    | Should be named after a SoundClass                              |
+| Sound Cue         | AU_     | _Cue   |                                                                 |
+| Sound Mix         | Mix_    |        |                                                                 |
+| Sound Wave        | AU_     |        |                                                                 |
 
 <a name="anc-ui"></a>
 <a name="1.2.11"></a>

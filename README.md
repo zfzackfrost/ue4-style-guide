@@ -294,6 +294,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Texture (Mask)                      | T_     | _K     | Suffix changed from original style guide.               |
 | Texture (Specular)                  | T_     | _S     |                                                         |
 | Texture (Metallic)                  | T_     | _M     |                                                         |
+| Texture (Signed Distance Field)     | T_     | Sdf    | No underscore in suffix.                                |
 | Texture (Packed)                    | T_     | _*     | See notes below about [packing](#anc-textures-packing). |
 | Texture Cube                        | TC_    |        |                                                         |
 | Media Texture                       | MT_    |        |                                                         |
